@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Login Console</title>
+</h:head>
+<h:body>
+	<h:form>
+		<h:outputLabel value="Editor" />
+		<br />
+		<br />
+		<h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
+			<h:outputText value="I accept terms and conditions: " />
+			<p:selectBooleanButton id="value1"
+				value="#{selectBooleanView.value1}" onLabel="Yes" offLabel="No"
+				style="width:60px" />
+
+			<h:outputText value="Subscribe me to newsletter: " />
+			<p:selectBooleanButton id="value2"
+				value="#{selectBooleanView.value2}" onLabel="Yes" offLabel="No"
+				onIcon="ui-icon-check" offIcon="ui-icon-close" style="width:60px">
+				<p:ajax update="msgs" listener="#{selectBooleanView.addMessage}" />
+			</p:selectBooleanButton>
+		</h:panelGrid>
+		<p:editor></p:editor>
+
+	</h:form>
+</h:body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="com.itsys.server.test.TestTask" project="TaskMgmt" 
+    file="/TaskMgmt/src/com/itsys/server/test/TestTask.java" binary="false" label="testTask" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>  
+  </object>  
+  <object id="2" language="java" name="com.itsys.server.services.delegate.impl.UserServiceDelegateImpl" 
+    project="TaskMgmt" file="/TaskMgmt/src/com/itsys/server/services/delegate/impl/UserServiceDelegateImpl.java" 
+    binary="false" label="userServiceDelegateImpl" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="3">      
+      <position height="63" width="176" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="6" language="java" name="com.itsys.server.services.impl.UserServiceImpl" project="TaskMgmt" 
+    file="/TaskMgmt/src/com/itsys/server/services/impl/UserServiceImpl.java" binary="false" label="userServiceImpl" 
+    type="class" autoSize="false">    
+    <position height="161" width="171" x="180" y="0"/>    
+    <execution id="5">      
+      <position height="21" width="138" x="185" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="7" language="java" name="com.itsys.server.dal.DAOFactory" project="TaskMgmt" 
+    file="/TaskMgmt/src/com/itsys/server/dal/DAOFactory.java" binary="false" label="daoFactory" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="546" y="0"/>    
+    <execution id="8">      
+      <position height="84" width="0" x="0" y="107"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="149"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="com.itsys.server.dal.JPADAOFactory" project="TaskMgmt" 
+    file="/TaskMgmt/src/com/itsys/server/dal/JPADAOFactory.java" binary="false" label="jpadaoFactory" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="627" y="0"/>  
+  </object>  
+  <message id="4" operation="checkValidUser(java.lang.String,java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>  
+  <message id="9" operation="getDAOFactory(int,java.lang.Object):com.itsys.server.dal.DAOFactory" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>
+</sequence-diagram>

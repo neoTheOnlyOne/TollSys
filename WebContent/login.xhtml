@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+<h:head>
+	<title>Sign-in to Toll System</title>
+</h:head>
+<h:body>
+
+	<h:outputStylesheet library="css" name="login.css" />
+
+	<div class="login-page">
+		<div class="form">
+
+			<form class="login-form">
+				<input type="text" placeholder="username" /> <input type="password"
+					placeholder="password" />
+				<button>login</button>
+				<p class="message">
+					Not registered? <a href="#">Create an account</a>
+				</p>
+			</form>
+		</div>
+	</div>
+
+	<br />
+	<br />
+	<br />
+
+	<div class="login-page">
+		<div class="form">
+			<h:form class="login-form">
+				<table>
+					<tr>
+						<td><h:outputText value="Login ID: " /></td>
+						<td><h:inputText id="userName" value="#{login.userName}"
+								pt:placeholder="Login ID" /></td>
+					</tr>
+					<tr>
+						<td><h:outputText value="Password: " /></td>
+						<td><h:inputSecret id="password"
+								value="#{login.password}" pt:placeholder="password" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><h:commandButton value="Login"
+								action="#{login.checkValidUser}" styleClass="submit1" /></td>
+					</tr>
+				</table>
+			</h:form>
+		</div>
+	</div>
+</h:body>
+</html>
+

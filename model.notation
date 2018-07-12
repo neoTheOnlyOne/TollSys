@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <notation:Diagram xmi:id="_MLzSMHoLEeiRj9DL2YG1Fg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_MLzSMXoLEeiRj9DL2YG1Fg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_MLzSMnoLEeiRj9DL2YG1Fg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_MLzSM3oLEeiRj9DL2YG1Fg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner href="model.uml#_MLX0YHoLEeiRj9DL2YG1Fg"/>
+    </styles>
+    <element href="model.uml#_MLX0YHoLEeiRj9DL2YG1Fg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_MMB7sHoLEeiRj9DL2YG1Fg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_MMB7sXoLEeiRj9DL2YG1Fg" type="Interaction_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_MMB7snoLEeiRj9DL2YG1Fg" type="Interaction_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_MMB7s3oLEeiRj9DL2YG1Fg" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_MMB7tHoLEeiRj9DL2YG1Fg"/>
+      </children>
+      <element href="model.uml#_ML-4YHoLEeiRj9DL2YG1Fg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_MMB7tXoLEeiRj9DL2YG1Fg"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_MMB7tnoLEeiRj9DL2YG1Fg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_MMB7t3oLEeiRj9DL2YG1Fg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_MMB7uHoLEeiRj9DL2YG1Fg" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner href="model.uml#_MLX0YHoLEeiRj9DL2YG1Fg"/>
+    </styles>
+    <element href="model.uml#_ML-4YHoLEeiRj9DL2YG1Fg"/>
+  </notation:Diagram>
+</xmi:XMI>
